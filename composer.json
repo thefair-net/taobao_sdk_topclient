@@ -1,0 +1,25 @@
+{
+  "name": "thefair/taobao_sdk_client",
+  "type": "library",
+  "description": "The TaoBao API library for TheFair",
+  "keywords": [
+    "thefair"
+  ],
+  "homepage": "https://github.com/thefair-net/thefairlib",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zhang Han",
+      "email": "zhanghan@thefair.net.cn"
+    }
+  ],
+  "require": {
+    "php": ">= 5.2.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "files": [
+      "TopSdk.php"
+    ]
+  }
+}
